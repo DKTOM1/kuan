@@ -1,0 +1,154 @@
+#PageHome{
+	position: relative;
+	width: 100%;
+    padding: 10px;
+    background: #1d1e1e;
+
+}
+
+.Main{
+	background:url(../images/direct-bg.png) center center no-repeat;
+	background-size:cover
+}
+
+.Main-box{
+	width:100%;
+	height:632px;
+    border: 5px solid #ffcc00;
+    position: relative;
+    z-index: 1;
+}
+.btn{
+	width: 90px;
+	background-color: #23a3a3;
+	color: white;
+}
+.btn:hover{
+	background-color: #66a2a2;
+}
+
+.public-logo{
+	float:left;
+	width: 180px;
+}
+
+.logoin-register{
+	margin-top: 15px;
+	margin-left: 50px;
+	float:left;
+}
+
+.logo img{
+	width: 180px;
+	height: 65px;
+}
+
+/*圆形导航部分*/
+
+.content{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	margin-top:170px;
+	z-index:1;
+/*	border: 1px solid white;*/
+}
+.public-bar{
+	width: 100%;
+	height: 100%;
+	position:relative;
+}
+.content .public-bar .item{
+	width: 180px;
+	height: 180px;
+	background: url(../images/enter-bg.png) no-repeat;
+}
+.public-bar .bar-one{
+	position: absolute;
+	top: 0px;
+	margin-left: 65px;
+	text-align: center;
+}
+
+.item>a{
+	line-height: 180px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	font-weight: 800;
+		position: relative;
+	z-index: 9;
+	
+}
+
+
+.item>span{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background: url(../images/enter-hover.png);
+	z-index:3;
+/*	border: 1px solid white;*/
+	left: -48px;
+	top:-16px;
+	display: none;
+}
+
+
+.public-bar .bar-two{
+	position: absolute;
+	top: 80px;
+	margin-left: 280px;
+	text-align: center;
+}
+
+.public-bar .bar-three{
+	position: absolute;
+	top: 10px;
+	margin-left: 700px;
+	text-align: center;	
+}
+
+.public-bar .bar-four{
+	position: absolute;
+	top: -30px;
+	margin-left: 1050px;
+	text-align: center;	
+}
+
+.public-bar .bar-five{
+	position: absolute;
+	top: 60px;
+	margin-left: 110px;
+	text-align: center;	
+}
+
+
+
+.public-bar .bar-six{
+	position: absolute;
+	top: 160px;
+	margin-left: 340px;
+	text-align: center;	
+}
+
+
+.public-bar .bar-seven{
+	position: absolute;
+	top: 100px;
+	margin-left: 720px;
+	text-align: center;	
+}
+
+.public-bar .bar-eight{
+	position: absolute;
+	top: 200px;
+	margin-left: 1070px;
+	text-align: center;	
+}
+
+.item:hover span{
+	display: block;
+}
+

@@ -1,0 +1,17 @@
+html {
+  -webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+/*
+*{
+	font-family:"微软雅黑","黑体";
+}
+*/
+body{
+	 overflow-x:hidden;
+	overflow-y: hidden;
+}
+div,img ul{
+	margin: 0;
+	padding: 0;
+}
